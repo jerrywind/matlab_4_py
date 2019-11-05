@@ -1,3 +1,5 @@
+import numpy as np
+
 def rat(x, tol=None, isRel=False, isReturnSeq=False):
     """
     Using continuous fractions with a tolerance, result close to matlab rat function,
